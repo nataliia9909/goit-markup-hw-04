@@ -1,0 +1,124 @@
+:root {
+    --color-brand: #2196F3;
+    --color-primary: #757575;
+    --color-title: #212121;
+    --color-background:#FFFFFF;
+    --color-white: #FFFFFF;
+}
+span {
+    color: var(--color-brand);
+}
+.logo-header {
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1.19;
+    font-weight: 700;
+    color: var(--color-title);
+    text-decoration: none;
+}
+.linl {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--color-title);
+}
+.link:hover {
+    color: var(--color-brand);
+}
+ul {
+    list-style-type: none;
+}
+a {
+    color: var(--color-title);
+    ist-style-type: none;
+    text-decoration: none;
+}
+.main-title {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-style: normal;
+    line-height: 1.36;
+    font-size: 44px;
+    color: var(--color-white);
+}
+.hero {
+    background: #2F303A;
+}
+.button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.875;
+    font-weight: 700;
+    color: var(--color-white);
+    background: var(--color-brand);
+    border: 1px solid var(--color-brand);
+}
+.features {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.14;
+    font-size: 14px;
+    color: var(--color-title);
+}
+.features-text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.71;
+    font-size: 14px;
+    color: var(--color-primary);
+}
+.sub-title {
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--color-title);
+}
+.our-team {
+    background: #F5F4FA;
+}
+.employees {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--color-title;)
+}
+.employees-description {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.19;
+    font-size: 16px;
+    color: var(--color-primary);
+}
+.footer-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-link:hover {
+color: var(--color-white);
+}
+.footer {
+    background: #2F303A;
+}
+.logo-footer {
+    font-size: 26px;
+    font-family: 'Raleway';
+    color: var(--color-white);
+    line-height: 1.19;
+    font-weight: 700;
+    text-decoration: none;
+}
