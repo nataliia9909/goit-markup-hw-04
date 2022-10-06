@@ -5,34 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфоліо</title>
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a class="logo-header" href="./index.html"><span>Web</span>Studio</a>
-        <ul>
+        <a class="link-logo" href="./index.html"
+          ><span class="link-logo-accent">Web</span>Studio</a
+        >
+        <ul class="header-list-nav">
           <li>
-            <a class="link" href="./index.html">Студія</a>
+            <a class="link header-link-nav" href="./index.html">Студія</a>
           </li>
           <li>
-            <a class="link" href="./portfolio.html">Портфоліо</a>
+            <a class="link header-link-nav link-current" href="./portfolio.html"
+              >Портфоліо</a
+            >
           </li>
           <li>
-            <a class="link" href="">Контакти</a>
+            <a class="link header-link-nav" href="">Контакти</a>
           </li>
         </ul>
       </nav>
-      <ul>
+      <ul class="header-list-contacts">
         <li>
           <a
-            class="link"
+            class="link header-link-contact"
             href="mailto:info@devstudio.com"
             target="_blank"
             rel="noopener noreferrer nofollow"
@@ -41,7 +45,7 @@
         </li>
         <li>
           <a
-            class="link"
+            class="link header-link-contact"
             href="tel:+380961111111"
             target="_blank"
             rel="noopener noreferrer nofollow"
@@ -51,92 +55,105 @@
       </ul>
     </header>
     <main>
-      <ul>
-        <li><button type="button" class="portfolio-btn">Усі</button></li>
-        <li><button type="button" class="portfolio-btn">Веб-сайти</button></li>
-        <li><button type="button" class="portfolio-btn">Додатки</button></li>
-        <li><button type="button" class="portfolio-btn">Дизайн</button></li>
-        <li><button type="button" class="portfolio-btn">Маркетинг</button></li>
-      </ul>
-      <section>
-        <ul>
+      <section class="portfolio">
+        <h2 class="visually-hidden">Portfolio</h2>
+        <ul class="portfolio-btn">
+          <li><button type="button" class="portfolio-btn-item">Усі</button></li>
           <li>
-            <img src="./images/img1.png" alt="ноутбук" width="370" />
-            <h3 class="portfolio-title">Технокряк</h3>
-            <p class="portfolio-text">Веб-сайт</p>
+            <button type="button" class="portfolio-btn-item">Веб-сайти</button>
           </li>
           <li>
+            <button type="button" class="portfolio-btn-item">Додатки</button>
+          </li>
+          <li>
+            <button type="button" class="portfolio-btn-item">Дизайн</button>
+          </li>
+          <li>
+            <button type="button" class="portfolio-btn-item">Маркетинг</button>
+          </li>
+        </ul>
+        <ul class="portfolio-project">
+          <li class="portfolio-project-item">
+            <img src="./images/img1.png" alt="ноутбук" width="370" />
+            <h3 class="portfolioprojecte-title">Технокряк</h3>
+            <p class="portfolio-project-text">Веб-сайт</p>
+          </li>
+          <li class="portfolio-project-item">
             <img
               src="./images/img2.png"
               alt="баскетболісти в прижку"
               width="370"
             />
-            <h3 class="portfolio-title">Постер New Orlean vs Golden Star</h3>
-            <p class="portfolio-text">Дизайн</p>
+            <h3 class="portfolio-project-title">
+              Постер New Orlean vs Golden Star
+            </h3>
+            <p class="portfolio-project-text">Дизайн</p>
           </li>
-          <li>
+          <li class="portfolio-project-item">
             <img src="./images/img3.png" alt="логотип ресторану" width="370" />
-            <h3 class="portfolio-title">Ресторан Seafood</h3>
-            <p class="portfolio-text" p>Додаток</p>
+            <h3 class="portfolio-project-title">Ресторан Seafood</h3>
+            <p class="portfolio-project-text">Додаток</p>
           </li>
-          <li>
+          <li class="portfolio-project-item">
             <img src="./images/img4.png" alt="наушники" width="370" />
-            <h3 class="portfolio-title">Проєкт Prime</h3>
-            <p class="portfolio-text">Маркетинг</p>
+            <h3 class="portfolio-project-title">Проєкт Prime</h3>
+            <p class="portfolio-project-text">Маркетинг</p>
           </li>
-          <li>
+          <li class="portfolio-project-item">
             <img src="./images/img5.png" alt="коробки" width="370" />
-            <h3 class="portfolio-title">Проєкт Boxes</h3>
-            <p class="portfolio-text">Додаток</p>
+            <h3 class="portfolio-project-title">Проєкт Boxes</h3>
+            <p class="portfolio-project-text">Додаток</p>
           </li>
-          <li>
+          <li class="portfolio-project-item">
             <img src="./images/img6.png" alt="монітор" width="370" />
-            <h3 class="portfolio-title">Inspiration has no Borders</h3>
-            <p class="portfolio-text">Веб-сайт</p>
+            <h3 class="portfolio-project-title">Inspiration has no Borders</h3>
+            <p class="portfolio-project-text">Веб-сайт</p>
           </li>
-          <li>
+          <li class="portfolio-project-item">
             <img src="./images/img7.png" alt="книга" width="370" />
-            <h3 class="portfolio-title">Видання Limited Edition</h3>
-            <p class="portfolio-text">Дизайн</p>
+            <h3 class="portfolio-project-title">Видання Limited Edition</h3>
+            <p class="portfolio-project-text">Дизайн</p>
           </li>
-          <li>
+          <li class="portfolio-project-item">
             <img src="./images/img8.png" alt="реклама" width="370" />
-            <h3 class="portfolio-title">Проєкт LAB</h3>
-            <p class="portfolio-text">Маркетинг</p>
+            <h3 class="portfolio-project-title">Проєкт LAB</h3>
+            <p class="portfolio-project-text">Маркетинг</p>
           </li>
-          <li>
+          <li class="portfolio-project-item">
             <img src="./images/img9.png" alt="ноутбук" width="370" />
-            <h3 class="portfolio-title">Growing Business</h3>
-            <p class="portfolio-text">Додаток</p>
+            <h3 class="portfolio-project-title">Growing Business</h3>
+            <p class="portfolio-project-text">Додаток</p>
           </li>
         </ul>
       </section>
     </main>
     <footer class="footer">
-      <a class="logo-footer" href="./index.html"><span>Web</span>Studio</a>
-      <address>
-        <ul>
-          <li>
+      <a class="link-logo" href="./index.html"
+        ><span class="link-logo-accent">Web</span>Studio</a
+      >
+      <address class="footer-address">
+        <ul class="footer-address-list">
+          <li class="footer-address-item">
             <a
-              class="footer-link"
+              class="link footer-link-accent"
               href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
               target="_blank"
               rel="noopener noreferrer nofollow"
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
-          <li>
+          <li class="footer-address-item">
             <a
-              class="footer-link"
+              class="link footer-link"
               href="mailto:info@devstudio.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="footer-address-item">
             <a
-              class="footer-link"
+              class="link footer-link"
               href="tel:+380961111111"
               target="_blank"
               rel="noopener noreferrer nofollow"
