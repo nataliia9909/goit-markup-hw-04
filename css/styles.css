@@ -14,12 +14,35 @@ body {
     line-height: 1.7;
 }
 
-/* link */
+/* reset */
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
 .link {
 text-decoration: none;
 }
 
-/* button */
+/* base styles */
+
+.section {
+
+}
+
+.container {
+
+}
+
 .primary-button {
 color: var(--color-white);
 font-family: inherit;
@@ -261,16 +284,3 @@ background-color: var(--color-background-secondary);
 }
 
 /* Центрування */
-
-.header-container {
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    min-width: 1200px;
-}
-
-.conrainer-nav {
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-}
