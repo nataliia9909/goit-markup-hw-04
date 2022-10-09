@@ -260,3 +260,17 @@ background-color: var(--color-background-secondary);
     letter-spacing: 0.03em;
 }
 
+/* Центрування */
+
+.header-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    min-width: 1200px;
+}
+
+.conrainer-nav {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
