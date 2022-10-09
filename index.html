@@ -19,83 +19,89 @@
   </head>
   <body>
     <header class="header">
-      <nav>
-        <a class="link-logo" href="./index.html"
-          ><span class="link-logo-accent">Web</span>Studio</a
-        >
-        <ul class="header-list-nav">
+      <div class="header-container container">
+        <nav class="header-nav">
+          <a class="link-logo" href="./index.html"
+            ><span class="link-logo-accent">Web</span>Studio</a
+          >
+          <ul class="header-list-nav">
+            <li>
+              <a class="link header-link-nav link-current" href="./index.html"
+                >Студія</a
+              >
+            </li>
+            <li>
+              <a class="link header-link-nav" href="./portfolio.html"
+                >Портфоліо</a
+              >
+            </li>
+            <li>
+              <a class="link header-link-nav" href="">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-list-contacts">
           <li>
-            <a class="link header-link-nav link-current" href="./index.html"
-              >Студія</a
+            <a
+              class="link header-link-contact"
+              href="mailto:info@devstudio.com"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="link header-link-nav" href="./portfolio.html"
-              >Портфоліо</a
+            <a
+              class="link header-link-contact"
+              href="tel:+380961111111"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >+38 096 111 11 11</a
             >
-          </li>
-          <li>
-            <a class="link header-link-nav" href="">Контакти</a>
           </li>
         </ul>
-      </nav>
-      <ul class="header-list-contacts">
-        <li>
-          <a
-            class="link header-link-contact"
-            href="mailto:info@devstudio.com"
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a
-            class="link header-link-contact"
-            href="tel:+380961111111"
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
-      <section class="hero">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="primary-button">Замовити послугу</button>
+      <section class="hero section">
+        <div class="hero-container container">
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="primary-button">Замовити послугу</button>
+        </div>
       </section>
-      <section class="features">
+      <section class="features section">
         <h2 class="visually-hidden">Особливості</h2>
-        <ul class="feateres-list">
-          <li>
-            <h3 class="features-list-item-title">Увага до деталей</h3>
-            <p class="features-list-item-text">
-              Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позиції.
-            </p>
-          </li>
-          <li>
-            <h3 class="features-list-item-title">Пунктуальість</h3>
-            <p class="features-list-item-text">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне
-              у себе.
-            </p>
-          </li>
-          <li>
-            <h3 class="features-list-item-title">Планування</h3>
-            <p class="features-list-item-text">
-              Так само консультація з широким активом значною мірою зумовлює.
-            </p>
-          </li>
-          <li>
-            <h3 class="features-list-item-title">Сучасні технології</h3>
-            <p class="features-list-item-text">
-              Значимість цих проблем настільки очевидна, що реалізація планових
-              завдань.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="feateres-list card-set">
+            <li class="card-set-item">
+              <h3 class="features-list-item-title">Увага до деталей</h3>
+              <p class="features-list-item-text">
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
+            </li>
+            <li class="card-set-item">
+              <h3 class="features-list-item-title">Пунктуальість</h3>
+              <p class="features-list-item-text">
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
+              </p>
+            </li>
+            <li class="card-set-item">
+              <h3 class="features-list-item-title">Планування</h3>
+              <p class="features-list-item-text">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li class="card-set-item">
+              <h3 class="features-list-item-title">Сучасні технології</h3>
+              <p class="features-list-item-text">
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="activity">
         <h2 class="activity-title">Чим ми займаємося</h2>

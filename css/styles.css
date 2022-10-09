@@ -5,6 +5,9 @@
     --color-background:#FFFFFF;
     --color-background-secondary: #2F303A;
     --color-white: #FFFFFF;
+
+    --indent: 30px;
+    --items: 4;
 }
 
 body {
@@ -19,7 +22,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
-.list {
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -36,10 +39,18 @@ text-decoration: none;
 /* base styles */
 
 .section {
-
+padding: 94px 0;
 }
 
 .container {
+width: 1200px;
+padding: 0 15px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+outline: 2px solid tomato;
 
 }
 
@@ -284,3 +295,67 @@ background-color: var(--color-background-secondary);
 }
 
 /* Центрування */
+
+/* .header {
+    display: flex;
+    outline: 2px solid blue;
+} */
+.header-container {
+    padding: 24px 15px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 93px;
+}
+
+.header-list-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.header-list-contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-container {
+    flex-direction: column;
+}
+
+.hero-title {
+    width: 696px;
+    margin-bottom: 30px;
+}
+
+.primary-button {
+    padding: 10px 32px;
+}
+
+.hero {
+    padding: 200px 0;
+}
+
+/* features */
+
+/* grids */
+.card-set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--indent);
+}
+
+.card-set-item {
+    flex-basis: calc(100%/var);
+}
+
+
+
+/* --indent: 30px;
+--items: 4; */
