@@ -327,6 +327,7 @@ background-color: var(--color-background-secondary);
 
 .hero-container {
     flex-direction: column;
+    display: flex;
 }
 
 .hero-title {
@@ -343,19 +344,95 @@ background-color: var(--color-background-secondary);
 }
 
 /* features */
+.features {
+    padding-bottom: 47px;
+}
+
+.features-list-item-title {
+    margin-bottom: 10px;
+}
+
+.feateres-list {
+    display: flex;
+    gap: 30px;
+    padding: 0;
+}
+
+.feateres-item {
+    width: 270px;
+}
+
+/* activity */
+.activity {
+    padding-top: 47px;
+    padding-bottom: 47px;
+}
+
+.activity-list {
+    display: flex;
+}
+
+.activity-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.activity-list {
+    display: flex;
+    padding: 0;
+    gap: 30px;
+}
+
+.activity-title {
+    margin-bottom: 50px;
+}
+
+/* team */
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+}
+.team-list {
+    display: flex;
+    padding: 0;
+    gap: 30px;
+}
+.team-title {
+    margin-bottom: 50px;
+}
+
+.team-list-item-title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.team-list-item-text {
+    margin-bottom: 30px;
+}
+
+/* footer */
+.footer-container {
+    padding: 60px 15px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.footer-address-list {
+    margin-top: 20px;
+}
+
+.footer-address-item:not(:last-child) {
+    margin-bottom: 9px;
+}
 
 /* grids */
-.card-set {
+/* .card-set {
     display: flex;
     flex-wrap: wrap;
-    gap: var(--indent);
+    gap: 30px;
 }
 
 .card-set-item {
-    flex-basis: calc(100%/var);
-}
-
-
-
-/* --indent: 30px;
---items: 4; */
+    flex-basis: 100%/4;
+} */
