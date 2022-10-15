@@ -5,6 +5,7 @@
   --color-background: #ffffff;
   --color-background-secondary: #2f303a;
   --color-white: #ffffff;
+  --color-icon: #afb1b8;
 
   --indent: 30px;
   --items: 3;
@@ -309,6 +310,35 @@ img {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.net-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.net-item {
+}
+
+.net-link {
+  width: 44px;
+  height: 44px;
+  background-color: var(--color-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: var(--color-icon);
+}
+
+.net-icon {
+  fill: currentColor;
+}
+
+.net-link:hover .net-icon {
+  background-color: var(--color-brand);
+  fill: var(--color-white);
 }
 
 /* footer */
